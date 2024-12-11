@@ -4,17 +4,46 @@ html{
 
 .side-bar{
     display: flex;
-    width: 80px;
-    height: 100%;
+    width: 100px;
+    height: 1000px;
     flex-direction: column;
-}
-
-.logo{
+    justify-content: space-between;
     background-color: black;
 }
+
 
 .menu{
-    background-color: black;
     display: flex;
     flex-direction: column;
+}
+
+.playlist{
+    display: none;
+}
+
+
+.profile{
+    border-radius: 50%;
+    background-color: gray;
+}
+
+
+
+
+
+.play{
+    height: 150px;
+    background-color: rgb(87, 82, 82);
+    color: white;
+}
+
+.sinister{
+    padding: 30px;
+}
+
+.sinister img{
+    float: left;
+    
+    
+
 }
