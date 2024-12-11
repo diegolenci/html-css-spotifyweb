@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px){
+    .side-bar{
+        width: 200px;
+    }
+
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    
+}
