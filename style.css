@@ -4,27 +4,87 @@ html{
 
 .side-bar{
     display: flex;
-    width: 100px;
+    width: 90px;
     height: 1000px;
     flex-direction: column;
     justify-content: space-between;
     background-color: black;
+    padding: 10px;
+}
+
+.logoandmenu{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+
+
+.title{
+    display: none;
+    color: white;
+    font-size: 2rem;
 }
 
 
 .menu{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    
+}
+
+.menu-2 img{
+    color: lightslategray;
+}
+
+
+.sottomenu{
+    display: none;
+    color: white;
+    font-size: 22px;
 }
 
 .playlist{
     display: none;
+    color: white;
+    justify-content: flex-start;
+    
 }
 
+.user-options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.download{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.installa-app{
+    display: none;
+    color: lightslategray;
+}
 
 .profile{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile img{
     border-radius: 50%;
     background-color: gray;
+}
+
+.john-doe{
+    display: none;
+    color: white;
+    font-size: 20px;
 }
 
 

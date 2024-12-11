@@ -1,16 +1,59 @@
 @media screen and (min-width: 768px){
+    
     .side-bar{
-        width: 200px;
+        width: 300px;
     }
 
     .logo{
-        width: 100px;
-        height: 100px;
+        display: flex;
+        gap: 10px;
+        
+    }
+
+    .logo img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .title{
+        display: flex;
+        align-items: center;
+    
+    }
+
+    .menu-2{
+        display: flex;
+    }
+
+    .sottomenu{
+        display: flex;
+        align-items: center;
+        color: lightslategray;
     }
 
     .playlist{
         display: flex;
         flex-direction: column;
+        gap: 20px;
+        font-size: 20px;
+    }
+
+    .playlist ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: lightslategray;
     }
     
+    .installa-app{
+        display: flex;
+        align-self: center;
+        margin-left: 10px;
+    }
+
+    .john-doe{
+        display: flex;
+        align-self: center;
+        margin-left: 10px;
+    }
 }

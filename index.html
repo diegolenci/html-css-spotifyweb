@@ -9,20 +9,34 @@
     <link rel="stylesheet" href="debug.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
+  <section>
     <!--side bar-->
     <div class="side-bar">
-        <div class="logo">
-            <img src="img/logo-small.svg" alt="" width="80px" height="80px">
+        <div class="logoandmenu">
+            <div class="logo">
+            <img src="img/logo-small.svg" alt="" width="70px" height="70px">
+            <span class="title"><strong>Spotify</strong></span>
+            </div>
             <div class="menu">
-                <img src="img/search.svg" alt="" width="80px" height="80px">
-                <img src="img/home.svg" alt="" width="80px" height="80px">
-                <img src="img/libreria.svg" alt="" width="80px" height="80px">
+                <div class="menu-2">
+                <img src="img/search.svg" alt="" width="70px" height="70px"> 
+                <span class="sottomenu">Home</span>
+                </div>
+                <div class="menu-2">
+                <img src="img/home.svg" alt="" width="70px" height="70px">
+                <span class="sottomenu">Cerca</span>
+                </div>
+                <div class="menu-2">
+                <img src="img/libreria.svg" alt="" width="70px" height="70px">
+                <span class="sottomenu">La tua libreria</span>
+                </div>
             </div>
         </div>
         <div class="playlist">
-            <h5>Playlist</h5>
+            <h4>Playlist</h4>
             <ul>
                 <li>Crea Playlist</li>
                 <li>Nome playlist</li>
@@ -35,16 +49,23 @@
         </div>
         <div class="user-options">
             <div class="download">
-                <img src="img/download.svg" alt="" width="50px" height="50px">
+                <img src="img/download.svg" alt="" width="40px" height="40px">
+                <span class="installa-app">Installa app</span>
             </div>
             <div class="profile">
-                <img src="img/profile.svg" alt="" width="80px" height="80px">
+                <img src="img/profile.svg" alt="" width="70px" height="70px">
+                <span class="john-doe"><strong>John Doe</strong></span>
             </div>
         </div>
-
-        
     </div>
-
+    <div class="home-page">
+        <div class="btn-upgrade">
+            <a href="">EFFETTUA UPGRADE</a>
+        </div>
+    </div>
+  </section> 
+    
+    <!--canzone in riproduzione-->
     <div class="play">
         <div class="sinister">
             <img src="img/sinister.jpeg" alt="" width="60px" height="60px">
