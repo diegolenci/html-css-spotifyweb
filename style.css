@@ -2,6 +2,10 @@ html{
     font-family: sans-serif;
 }
 
+section{
+    display: flex;
+}
+
 .side-bar{
     display: flex;
     width: 90px;
@@ -85,6 +89,31 @@ html{
     display: none;
     color: white;
     font-size: 20px;
+}
+
+
+.home-page{
+    width: 70%;
+    background-color: rgb(36, 36, 57);
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+}
+
+.btn-upgrade{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;   
+}
+
+.btn-upgrade a{
+    color: white;
+    border: 2px white;
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
 }
 
 
