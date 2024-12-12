@@ -4,8 +4,10 @@ html{
 
 section{
     display: flex;
+    height: 90vh;
 }
 
+/*CSS DELLA SIDE BAR DI SPOTIFY*/
 .side-bar{
     display: flex;
     width: 30%;
@@ -113,6 +115,8 @@ section{
 }
 
 
+/*CSS DELLA HOME PAGE DI SPOTIFY*/
+
 .home-page{
     width: 100%;
     background-color: rgb(36, 36, 57);
@@ -141,8 +145,8 @@ section{
     text-decoration: none;
 }
 
-.main-page{
-    overflow-x: auto;
+.home-page{
+    overflow-y: auto;
 }
 
 
@@ -167,13 +171,19 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 15px;
+    gap: 20px;
     padding-top: 30px;
     margin-left: 15px;
 }
 
 .recently-played-text{
     color: white;
+    padding-top: 10px;
+}
+
+.recently-played-text p{
+    color: lightslategray;
+    padding-top: 10px;
 }
 
 .recently-played-music{
@@ -185,7 +195,7 @@ section{
 .song-text{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     width: 200px;
 }
 
@@ -205,11 +215,16 @@ section{
 
 
 
+/*CSS DEL "FOOTER" DI SPOTIFY, LA CANZONE IN RIPRODUZIONE*/
+
 .play{
     height: 10vh;
     width: 100%;
     background-color: rgb(87, 82, 82);
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     
 }
 
