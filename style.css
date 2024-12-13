@@ -41,8 +41,13 @@ section{
 .menu{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     
+}
+
+.menu-2{
+    display: flex;
+    gap: 15px;
 }
 
 .menu-2 img{
@@ -60,7 +65,12 @@ section{
     display: none;
     color: white;
     justify-content: flex-start;
+    padding-left: 12px;
     
+}
+
+.playlist ul{
+    list-style: none;
 }
 
 .crea--playlist{
@@ -101,6 +111,7 @@ section{
 .profile{
     display: flex;
     justify-content: flex-start;
+    gap: 8px;
 }
 
 .profile img{
@@ -114,6 +125,53 @@ section{
     font-size: 20px;
 }
 
+hr{
+    display: none;
+}
+
+/*HOVER EFFETTI*/
+.crea--playlist :hover{
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+}
+
+.playlist ul :hover{
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+}
+
+.menu-2 :hover{
+    transform: scale(1.2);
+    color: white;
+    cursor: pointer;
+}
+
+.download :hover{
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+}
+
+.profile :hover{
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-upgrade :hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.home-list :hover{
+    transform: scale(1.1);
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
 
 /*CSS DELLA HOME PAGE DI SPOTIFY*/
 
@@ -128,7 +186,7 @@ section{
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: #080B12;
+    background-color: rgba(9, 11, 18, 0.7);
 }
 
 .btn-upgrade{

@@ -56,4 +56,16 @@
         align-self: center;
         margin-left: 10px;
     }
+
+    hr{
+        display: flex;
+        color: lightslategray;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .recently-played-text{
+        color: white;
+        padding-top: 10px;
+    }
 }
