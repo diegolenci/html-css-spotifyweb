@@ -178,6 +178,11 @@ hr{
     cursor: pointer;
 }
 
+.song-text:hover img {
+    opacity: .5;
+}
+
+
 /*CSS DELLA HOME PAGE DI SPOTIFY*/
 
 .home-page{
