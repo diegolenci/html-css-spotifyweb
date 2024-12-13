@@ -173,6 +173,11 @@ hr{
 
 }
 
+.heart-folder :hover{
+    color: white;
+    cursor: pointer;
+}
+
 /*CSS DELLA HOME PAGE DI SPOTIFY*/
 
 .home-page{
@@ -319,16 +324,62 @@ hr{
 
 .heart-folder{
     display: flex;
+    flex-direction: column;
     gap: 10px;
+    color: lightslategray;
     
+}
+
+.riproduzione{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .riproduzione--icons{
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 30px;
 }
 
 .menu--icons{
     display: flex;
     gap: 10px;
 }
+
+.fa-play{
+    border: 3px solid white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+
+.song-bar{
+    border: 1px solid lightslategray;
+    background-color: lightslategray;
+}
+
+.song-bar-2{
+    border: 1px solid white;
+    width: 30%;
+}
+
+.volum-bar{
+    border: 1px solid lightslategray;
+    background-color: lightslategray;
+    width: 100px;
+    height: 1px;
+    align-self: center;
+    
+}
+
+.volum-bar-2{
+    border: 1px solid white;
+    width: 50%;
+}
+
+
+
+

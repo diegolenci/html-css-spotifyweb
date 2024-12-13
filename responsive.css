@@ -68,4 +68,10 @@
         color: white;
         padding-top: 10px;
     }
+
+    .heart-folder{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
 }
